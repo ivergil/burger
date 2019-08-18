@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,15 +15,11 @@
     "type": "git",
     "url": "git+https://github.com/ivergil/burger.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ivergil/burger/issues"
   },
-  "homepage": "https://github.com/ivergil/burger#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "mysql": "^2.17.1"
-  }
+  "homepage": "https://github.com/ivergil/burger#readme"
 }
