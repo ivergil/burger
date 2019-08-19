@@ -1,0 +1,60 @@
+body {
+	background-image: url("../img/burger.jpg");
+    background-size: cover;
+
+	background-position: top;
+  font-family: 'Wendy One', sans-serif;
+  /* font-size: 50%; */
+}
+
+h1 {
+  color: #ffcc00;
+  
+  font-size: 250%;
+}
+
+.list-group-item-warning {
+    
+  color: #2214bf;
+  font-size: 200%;
+  background-color:rgba(255, 204, 0, 0.242);
+  border-color: #6d609e;
+}
+
+.list-group-item-info {
+  color:#ffcc00;
+  font-size: 200%;
+  background-color:rgba(109, 96, 158, 0.7);
+  border-color: #ffcc00;
+}
+
+.eatIt {
+  /* position: absolute; */
+  font-size: 18px;
+  top: 7px;
+  right: -150px;
+}
+
+.deleatIt {
+  /* position: absolute; */
+  font-size: 18px;
+  top: 7px;
+  /* right: -120px; */
+  /* color: #ffcc00; */
+  /* background-color: #6d609e; */
+}
+
+textarea.form-control {
+  color: #6d609e;
+  border: 2px solid #ffcc00;
+}
+
+.submitBurger {
+    font-size: 22px;
+  color: #6d609e;
+  margin-top: 15px;
+}
+
+.form-control {
+  font-size: 20px;
+}
