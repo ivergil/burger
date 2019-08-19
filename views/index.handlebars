@@ -1,13 +1,13 @@
 <div class="burgerUI container">
   <div class="row">
     <div class="col-md-4">
-      <h1 class="text-center">Burger List</h1>
+      <h1 class="text-center">Burger Menu</h1>
       <ul class="list-group">
         {{#each burger}}
           {{#unless this.devoured}}
             <li class="list-group-item list-group-item-warning">
               <span class="text-center">
-                {{this.id}}. {{this.burger_name}}
+                # {{this.id}}. {{this.burger_name}}
                 <!--method override to PUT in a form-->
                 <form action="/{{this.id}}?_method=PUT" method="POST">
                   <input type="hidden" name="id" value="{{this.id}}">
@@ -26,7 +26,7 @@
             {{#each burger}}
             {{#if this.devoured}}
               <li class="list-group-item list-group-item-info">
-                  {{this.id}}. {{this.burger_name}}
+                  # {{this.id}}. {{this.burger_name}}
                 <!--method override to Delete in a form-->
                 <form action="/{{this.id}}?_method=DELETE" method="POST">
                   <input type="hidden" name="id" value="{{this.id}}">

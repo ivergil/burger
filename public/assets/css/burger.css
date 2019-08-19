@@ -29,18 +29,18 @@ h1 {
 }
 
 .eatIt {
-  /* position: absolute; */
+  position: absolute;
   font-size: 18px;
   top: 7px;
   right: -150px;
 }
 
 .deleatIt {
-  /* position: absolute; */
+  position: absolute;
   font-size: 18px;
   top: 7px;
-  /* right: -120px; */
-  /* color: #ffcc00; */
+  right: -120px;
+  color: #ffcc00;
   /* background-color: #6d609e; */
 }
 

@@ -14,8 +14,8 @@ router.get("/", function(req, res) {
 //post a new burger to the db
 router.post("/", function(req, res) {
     burgerORM.insertOne(req.body.burger, function(result) {
-        console.log(result);
-        console.log("entro por insertOne");
+        // console.log(result);
+        // console.log("entro por insertOne");
         res.redirect("/");
   });
 });
@@ -23,8 +23,8 @@ router.post("/", function(req, res) {
 //update a burger's devoured status
 router.put("/:id", function(req,res) {
     burgerORM.updateOne(req.params.id, function(result) {
-        console.log(result);
-        console.log("entro por updateOne");
+        // console.log(result);
+        // console.log("entro por updateOne");
         res.redirect("/");
   });
 });
@@ -32,7 +32,7 @@ router.put("/:id", function(req,res) {
 //delete a burger from the database
 router.delete("/:id", function(req,res) {
     burgerORM.deleteOne(req.params.id, function(result) {
-        console.log("entro por deleteOne");
+        // console.log("entro por deleteOne");
       res.redirect("/");
     });
 });
