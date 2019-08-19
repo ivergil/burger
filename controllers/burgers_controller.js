@@ -5,7 +5,7 @@ var router = express.Router();
 //create routers and export them
 
 //select all burgers from the db and render them
-router.get("/", function(res) {
+router.get("/", function(req, res) {
     burgerORM.selectAll(function(data) {
         res.render("index", {burger:data});
  });
@@ -15,6 +15,7 @@ router.get("/", function(res) {
 router.post("/", function(req, res) {
     burgerORM.insertOne(req.body.burger, function(result) {
         console.log(result);
+        console.log("entro por insertOne");
         res.redirect("/");
   });
 });
@@ -23,6 +24,7 @@ router.post("/", function(req, res) {
 router.put("/:id", function(req,res) {
     burgerORM.updateOne(req.params.id, function(result) {
         console.log(result);
+        console.log("entro por updateOne");
         res.redirect("/");
   });
 });
@@ -30,6 +32,7 @@ router.put("/:id", function(req,res) {
 //delete a burger from the database
 router.delete("/:id", function(req,res) {
     burgerORM.deleteOne(req.params.id, function(result) {
+        console.log("entro por deleteOne");
       res.redirect("/");
     });
 });
