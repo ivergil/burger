@@ -3,4 +3,4 @@
 ## Click [HERE!!!](https://burger-bar-369.herokuapp.com/) to Check out the app running on heroku
 
 
-   [My Repo's](https://github.com/ivergil/burger.git) 
+   And click [Here!!!](https://github.com/ivergil/burger.git) to see the Burger App Repo on GitHub.
