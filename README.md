@@ -1,6 +1,6 @@
 # Burger Bar 369!  
 
-## Click [HERE!!!](https://youtu.be/xaTGQ3MX7pw) to watch the BamazonApp's Video
+## Click [HERE!!!](https://burger-bar-369.herokuapp.com/) to Check out the app running on heroku
 
 
-   [My Portfolio](https://ivergil.github.io/Responsive-Portfolio/) 
+   [My Repo's](https://github.com/ivergil/burger.git) 
