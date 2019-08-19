@@ -33,6 +33,7 @@ h1 {
   font-size: 18px;
   top: 7px;
   right: -150px;
+  background-color:rgba(255, 204, 0, 0.242);
 }
 
 .deleatIt {
@@ -41,7 +42,7 @@ h1 {
   top: 7px;
   right: -120px;
   color: #ffcc00;
-  /* background-color: #6d609e; */
+  background-color: rgba(109, 96, 158, 0.7);
 }
 
 textarea.form-control {
